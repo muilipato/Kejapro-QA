@@ -35,6 +35,7 @@ public class DashboardTests extends BaseTest {
         helpers.waitForSeconds(2);
         Assert.assertEquals(driver.getCurrentUrl(), excpectedUrl, "Failed to navigate to the Dashboard page");
     }
+
     @Test
     public void testDashboardHighlight() {
 
@@ -64,8 +65,5 @@ public class DashboardTests extends BaseTest {
 
         Assert.assertEquals(cardTitleText, "1", "Card title does not display '1'.");
         Assert.assertEquals(cardTextValue, "Buildings", "Card text does not display 'Buildings'.");
-    }
-    public void checKout(){
-
     }
 }
